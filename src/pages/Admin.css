@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,400;0,500;0,800;1,400&display=swap');
+
+:root {
+    --red: rgb(248, 8, 8);
+    --white: #fff;
+    --dark: rgb(0, 0, 0);
+    --yellow: hsl(48, 100%, 67%);
+    --roxo: rgb(64, 6, 80);
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.geral-admin {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    background-image: url('/src/img/acai-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0.1rem 0.5rem #000000;
+    transition: all 0.5s;
+}
+
+.header-nav-admin {
+    box-shadow: 0 0.1rem 0.5rem #000000;
+    width: 100%;
+    height: 160px;
+    background: var(--white);
+    transition: all 0.5s;
+    position: relative;
+}
+
+.header-logo-admin {
+    width: 400px;
+    position: relative;
+    left: 50%;
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+}
+
+.opcao-lista {
+    margin-top: 10px;
+    left: 50px;
+    position: absolute;
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.header-nav-admin a {
+    transition: all 0.5s;
+}
+
+.opcao-lista a:hover {
+    color: var(--roxo);
+}
+
+.header-admin {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo-admin {
+    width: 150px;
+}
+
+.main-container-admin {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-primeirasecao-admin {
+    margin-bottom: 20px;
+}
+
+.main-titulo-admin {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.data-container-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row-admin {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.row-admin:hover {
+    background-color: #f1f1f1;
+}
+
+.pedido-id {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.tabela-admin {
+    font-weight: bold;
+    color: #555;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .main-container-admin {
+        width: 95%;
+    }
+
+    .main-titulo-admin {
+        font-size: 1.5em;
+    }
+}

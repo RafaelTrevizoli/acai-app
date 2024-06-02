@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@100;500&display=swap');
+
+:root {
+    --red: rgb(248, 8, 8);
+    --white: #fff;
+    --dark: rgb(0, 0, 0);
+    --yellow: hsl(48, 100%, 67%);
+    --roxo: rgb(64, 6, 80);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+ol {
+    list-style-type: none;
+}
+
+.geral-cardapio {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: var(--white);
+}
+
+.container-label-cardapio {
+    margin-top: 130px;
+}
+
+.header-nav-cardapio {
+    background: var(--yellow);
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.header-logo-cardapio {
+    width: 400px;
+    position: relative;
+    left: 50%;
+    margin-top: 200px;
+    transform: translate(-50%, -50%);
+}
+
+.opcao-lista-cardapio {
+    margin-top: 10px;
+    left: 50px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.header-nav-cardapio a {
+    transition: all 0.5s;
+    color: var(--dark);
+}
+
+.opcao-lista-cardapio a:hover {
+    color: var(--white);
+}
+
+.main-separacoes1-cardapio {
+    background: var(--yellow);
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+.main-separacoes2-cardapio {
+    background: var(--yellow);
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+}
+
+.main-titulo-cardapio {
+    font-family: 'Allura', cursive;
+    margin-top: -20px;
+    font-size: 140px;
+    color: var(--roxo);
+    transition: all 0.5s;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+.main-cardapio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    transition: all 0.5s;
+}
+
+.main-border-cardapio {
+    padding: 15px;
+    background: var(--roxo);
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+.main-centro-cardapio {
+    background: var(--yellow);
+    width: 590px;
+    height: 470px;
+    position: relative;
+}
+
+.title-cardapio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitulo-cardapio {
+    position: absolute;
+    padding: 40px 40px;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.title2-cardapio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.subtitle-cardapio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.main-form-pedido-cardapio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    transition: all 0.5s;
+}
+
+.main-border-pedido-cardapio {
+    padding: 15px;
+    background: var(--roxo);
+    border-radius: 10px;
+    box-shadow: 7px 8px 7px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+.main-border-pedido-cardapio :hover {
+    background-color: rgb(227, 193, 245);
+}
+
+.main-centro-pedido-cardapio {
+    background: var(--yellow);
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.main-text-pedido-cardapio {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-button-cardapio {
+    height: 100px;
+    text-align: center;
+    margin-top: 100px;
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    .header-logo-cardapio {
+        width: 300px;
+    }
+
+    .main-titulo-cardapio {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .geral-cardapio {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-nav-cardapio {
+        height: 200px;
+    }
+
+    .header-logo-cardapio {
+        width: 200px;
+        margin-top: 150px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header-nav-cardapio {
+        height: 150px;
+    }
+
+    .header-logo-cardapio {
+        width: 150px;
+        margin-top: 100px;
+    }
+
+}

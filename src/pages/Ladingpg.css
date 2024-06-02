@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,400;0,500;0,800;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --red: rgb(248, 8, 8);
+    --white: #fff;
+    --dark: rgb(0, 0, 0);
+    --yellow: hsl(48, 100%, 67%);
+    --roxo: rgb(64, 6, 80);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.geral-lading {
+    color: var(--dark);
+    background: var(--white);
+}
+
+.header-nav-lading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: var(--white);
+    transition: all 0.5s;
+}
+
+.header-nav-lading .logo-escrita-lading {
+    color: var(--yellow);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.logo-escrita-lading span {
+    color: var(--dark);
+}
+
+.header-nav-lading .header-nav-menu-lading {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header-nav-lading .header-nav-menu-lading a {
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.header-nav-lading .header-nav-menu-lading .opcao-lista a:hover {
+    color: var(--yellow);
+}
+
+.main-secao-lading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+    margin-top: 120px;
+}
+
+.logo-escrita-lading-quy {
+    width: 400px;
+    margin-bottom: 3rem;
+    animation: rotate 3s linear infinite;
+}
+
+.main-container-lading {
+    max-width: 37rem;
+}
+
+.main-container-lading .main-titulo-secundario-lading {
+    font-size: 1.9rem;
+    color: var(--yellow);
+    margin-bottom: 1.2rem;
+}
+
+.main-container-lading .main-titulo-primario-lading {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+}
+
+.main-container-lading .main-titulo-secundario-lading,
+.main-container-lading .main-titulo-primario-lading {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+.main-logo-lading {
+    width: 400px;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    background: var(--yellow);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    background: var(--roxo);
+}
+
+.footer {
+    margin-top: 100px;
+}
