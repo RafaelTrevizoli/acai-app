@@ -69,3 +69,51 @@
     color: var(--yellow);
     font-size: 48px;
 }
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    .header-nav-principalpg {
+        height: 120px;
+    }
+
+    .logo-header {
+        width: 100px;
+        margin-top: 60px;
+    }
+
+    .main-titulo-principalpg {
+        font-size: 32px;
+    }
+
+    .main-subtitulo-principalpg {
+        font-size: 24px;
+    }
+
+    .main-container-principalpg span {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-nav-principalpg {
+        height: 100px;
+    }
+
+    .logo-header {
+        width: 80px;
+        margin-top: 50px;
+    }
+
+    .main-titulo-principalpg {
+        font-size: 28px;
+    }
+
+    .main-subtitulo-principalpg {
+        font-size: 20px;
+    }
+
+    .main-container-principalpg span {
+        font-size: 32px;
+}
+
+}
