@@ -5,6 +5,7 @@ import App from './App';
 import Cardapio from './pages/Cardapio';
 import Ladingpg from './pages/Ladingpg';
 import Admin from './pages/Admin';
+import Sobre from './pages/Sobre';
 import './index.css';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="/cardapio" element={<Cardapio />} />
         <Route path="/ladingpg" element={<Ladingpg />} />
         <Route path="/Admin" element={<Admin />} />
+        <Route path="/Sobre" element={<Sobre/>} />
       </Routes>
     </Router>
   </React.StrictMode>,

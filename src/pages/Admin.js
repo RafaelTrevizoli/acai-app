@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import logo from './../img/acai-logo.png';
+import Header from './../components/Header';
 import './Admin.css';
 
+// função tela de carregamento //
 const Admin = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 
+// função API google sheets //
   const fetchDataFromGoogleSheets = async () => {
     try {
       const response = await fetch('https://sheet.best/api/sheets/5b6a725e-6243-431b-b609-00ec67a50f56');
@@ -24,16 +25,14 @@ const Admin = () => {
 
   return (
     <div className="geral-admin">
-
+      
       {loading ? (
         <div className="loading-screen">A página de admistração está sendo carregada...</div>
       ) : (
 
         <div>
-          <div className="header-nav-admin">
-            <p className='opcao-lista'> <Link to="/">Volte a página principal</Link></p>
-            <img className="header-logo-admin" src={logo} alt="Logo Quy Açai" />
-          </div>
+          
+          <Header/>
 
           <main className="main-container-admin">
             <section className="main-primeirasecao-admin">
@@ -66,7 +65,7 @@ const Admin = () => {
           <footer className="footer">
             <div className="content has-text-centered">
               <p className="footer-text">
-                <strong>Create</strong> by <a href="https://www.instagram.com/rafael.konscca/">Rafael Trevizoli</a>
+                <strong>Create</strong> by <a href="https://github.com/RafaelTrevizoli">Rafael Trevizoli</a>
               </p>
             </div>
           </footer>

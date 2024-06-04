@@ -49,10 +49,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
+    box-shadow: 0 0.1rem 0.3rem #e1e1e1;
     width: 100%;
     background: var(--white);
     transition: all 0.5s;
+    height: 80px;
 }
 
 .header-nav-lading .logo-escrita-lading {
@@ -72,10 +73,14 @@
 }
 
 .header-nav-lading .header-nav-menu-lading a {
-    color: var(--dark);
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15px;
     transition: all 0.5s;
+    color: var(--roxo);
+}
+
+.header-nav-lading .header-nav-menu-lading .opcao-lista {
+    margin-top: -2px;
+ 
 }
 
 .header-nav-lading .header-nav-menu-lading .opcao-lista a:hover {
@@ -139,35 +144,6 @@
 
 .footer {
     margin-top: 100px;
-}
-
-
-@media only screen and (min-width: 1200px) {
-
-    .header-nav-lading {
-
-        padding: 18px 60px;
-
-    }
-
-    .main-secao-lading {
-
-        padding: 0px 15%;
-
-    }
-
-    .main-container-lading {
-
-        max-width: 45rem;
-
-    }
-
-    .main-logo-lading {
-
-        width: 500px;
-
-    }
-
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import logo from './../img/acai-logo.png';
+import Header from './../components/Header';
 import './Cardapio.css';
 
 const Cardapio = () => {
@@ -22,8 +22,9 @@ const Cardapio = () => {
     return (
         <div className='geral-cardapio'>
 
+            <Header />
+
             <div className="header-nav-cardapio">
-                <p className='opcao-lista-cardapio'><Link to="/">Página Principal </Link></p>
                 <img className="header-logo-cardapio" src={logo} alt="Logo Quy Açai" />
             </div>
 
@@ -169,7 +170,7 @@ const Cardapio = () => {
             <footer className="footer">
                 <div className="content has-text-centered">
                     <p>
-                        <strong>Create</strong> by <a href="https://www.instagram.com/rafael.konscca/">Rafael Trevizoli</a>
+                        <strong>Create</strong> by <a href="https://github.com/RafaelTrevizoli">Rafael Trevizoli</a>
                     </p>
                 </div>
             </footer>

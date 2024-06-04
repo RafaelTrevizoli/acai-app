@@ -36,7 +36,7 @@ const Ladingpg = () => {
       <footer className="footer">
         <div className="content has-text-centered">
           <p>
-            <strong>Create</strong> by <a href="https://www.instagram.com/rafael.konscca/">Rafael Trevizoli</a>
+            <strong>Create</strong> by <a href="https://github.com/RafaelTrevizoli">Rafael Trevizoli</a>
           </p>
         </div>
       </footer>
