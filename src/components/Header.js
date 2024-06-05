@@ -16,7 +16,7 @@ const Header = () => {
           <li className='header-components-lista'><Link to="/cardapio"> Cardápio</Link></li>
           <li className='header-components-lista'><Link to="/ladingpg"> LadingPág</Link></li>
           <li className='header-components-lista'><Link to="/admin"> AdminPág</Link></li>
-          <li className='header-components-lista'><Link to="/"> Sobre</Link></li>
+          <li className='header-components-lista'><Link to="/sobre"> Sobre</Link></li>
         </ul>
         <ul className='header-lista-principagpag2'>
           <li><img className="header-icon-principalpg2" src={UserIcon} alt="User" width="30px" /></li>

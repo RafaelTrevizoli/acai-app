@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,400;0,500;0,800;1,400&display=swap');
+
+:root {
+    --red: rgb(248, 8, 8);
+    --white: #fff;
+    --dark: rgb(0, 0, 0);
+    --yellow: hsl(48, 100%, 67%);
+    --roxo: rgb(64, 6, 80);
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.geral-sobre {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    background-image: url('/src/img/acai-fundo-liso.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0.1rem 0.5rem #000000;
+    transition: all 0.5s;
+}
+
+.acai-menu {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.acai-menu h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.acai-menu p {
+    font-size: 18px;
+    color: #cbcaca;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
