@@ -26,6 +26,18 @@ const Sobre = () => {
                             <h3>Açaí Fit</h3>
                             <p>Açaí com granola, banana, morango e mel, sem adição de açúcar.</p>
                         </div>
+                        <div className="menu-item">
+                            <h3>Açaí Natural</h3>
+                            <p>Açaí completamente natural, sem açucar e carboidratos.</p>
+                        </div>
+                        <div className="menu-item">
+                            <h3>Açaí com Chocolate</h3>
+                            <p>Açaí delicioso combinado com pedaços de chocolate e granola, oferecendo um sabor irresistível.</p>
+                        </div>
+                        <div className="menu-item">
+                            <h3>Açaí Cupuaçu</h3>
+                            <p>Uma mistura deliciosa de açaí e cupuaçu, servida com granola e leite condensado.</p>
+                        </div>
                     </div>
                 </div>
             </section>
