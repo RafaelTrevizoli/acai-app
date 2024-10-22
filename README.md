@@ -14,9 +14,3 @@ Bem-vindo ao projeto do Sistema de Pedidos para Lojas de Açaí! Este sistema fo
 - **Frontend:** React.js
 - **API:** Google Sheets API, PiDream
 - **Estilo:** CSS
-
-## 📦 Como Instalar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
