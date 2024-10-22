@@ -14,3 +14,5 @@ Bem-vindo ao projeto do Sistema de Pedidos para Lojas de Açaí! Este sistema fo
 - **Frontend:** React.js
 - **API:** Google Sheets API, PiDream
 - **Estilo:** CSS
+
+- ##
