@@ -37,7 +37,6 @@ const App = () => {
           </div>
         </section>
 
-
         <footer className="footer">
           <div className="content has-text-centered">
             <p className="footer-text">
